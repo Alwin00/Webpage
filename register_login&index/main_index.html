@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 智慧社区垃圾分类页面</title>
+    <link rel="stylesheet" href="css/index.css"/> <!-- 连接css -->
+    <link rel="stylesheet" href="css/swiper.css">
+    <style>
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 632px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+<!-- 页面最上部 -->
+<div id="header_top"></div>
+<!-- 页面顶部 -->
+<div id="header">
+    <div class="header_content">
+        <div class="lf">
+            <a href="#" title="查看新浪微博" class="xlwb"></a>
+            <a href="#" title="查看腾讯微博" class="txwb"></a>
+            <span>4001-666-888</span>
+        </div>
+        <ul class="rt">
+            <li>
+                <a href="login.html">登录</a>
+            </li>
+            <li>
+                <a href="#">注册</a>
+            </li>
+            <li>
+                <a href="#">了解积分</a>
+            </li>
+            <li>
+                <a href="#">帮助中心</a>
+            </li>
+            <li class="gw">
+                <a href="#">购物车</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 页面主导航 -->
+<div id="nav">
+    <div class="nav_content">
+        <div class="nav_logo"></div>
+        <ul class="nav_main">
+            <li><a href="">智慧社区</a></li>
+            <li><a href="">首页</a></li>
+            <li><a href="">积分</a></li>
+            <li><a href="">区块链</a></li>
+            <li><a href="">积分兑换</a></li>
+            <li><a href="">兑换商店</a></li>
+            <li><a href="">爱往福来</a></li>
+        </ul>
+    </div>
+</div>
+<!-- 轮播区域 -->
+<div id="banner">
+    <!-- <div class="banner-content">  -->
+    <!-- <div class="banner-1"> -->
+    <!-- <a href=""> -->
+    <!-- <img src="imgs/photo/20150514102748_0KfoFq.jpg"> -->
+    <!-- </a> -->
+    <!-- </div> -->
+    <!-- <div class="banner-11"> -->
+    <!-- <a href=""> -->
+    <!-- <img src="imgs/photo/20150514102748_qzZyNp.png"> -->
+    <!-- </a> -->
+    <!-- </div> -->
+    <!-- <div class="banner-2"> -->
+    <!-- <a href=""> -->
+    <!-- <img src="imgs/photo/20150515083926_xXmeTA.png"> -->
+    <!-- </a> -->
+    <!-- </div> -->
+    <!-- <div class="banner-22"> -->
+    <!-- <a href=""> -->
+    <!-- <img src="imgs/photo/20150515083926_AwViJo.png"> -->
+    <!-- </a> -->
+    <!-- </div> -->
+    <!-- <div class="banner-3"> -->
+    <!-- <a href=""> -->
+    <!-- <img src="imgs/photo/20150504102744_NzfGvZ.png"> -->
+    <!-- </a> -->
+    <!-- </div> -->
+    <!-- <div class="banner-33"> -->
+    <!-- <a href=""> -->
+    <!-- <img src="imgs/photo/20150504102744_unidnA.png"> -->
+    <!-- </a> -->
+    <!-- </div> -->
+    <!-- 			<div class="banner-4"> -->
+    <!-- 				<a href=""> -->
+    <!-- 					<img src="imgs/photo/20150409094829_0B17Qw.png"> -->
+    <!-- 				</a> -->
+    <!-- 			</div> -->
+    <!-- 			<div class="banner-44"> -->
+    <!-- 				<a href=""> -->
+    <!-- 					<img src="imgs/photo/20150504162232_CnnSKv.png"> -->
+    <!-- 				</a> -->
+    <!-- 			</div> -->
+    <!-- </div> -->
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="imgs/photo/banner1.jpg" width="100%;" height="630"></div>
+            <div class="swiper-slide"><img src="imgs/photo/banner2.jpg" width="100%;" height="630"></div>
+            <div class="swiper-slide"><img src="imgs/photo/banner3.jpg" width="100%;" height="630"></div>
+            <div class="swiper-slide"><img src="imgs/photo/banner4.jpg" width="100%;" height="630"></div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next">1</div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <div class="banner-nav-bg"></div>
+</div>
+<!-- 页面主体第一部分 -->
+<div id="main-1">
+    <div class="floor-1">
+        <div class="floor1">
+            <a href="" class="floor-title-png"><img src="imgs/bgi/i-c-title.png" class="animated zoomInUp"></a>
+            <h1 style="display:none;">区块链</h1>
+            <div class="floor-content">
+                <div class="floor-content3">
+                    <ul class="star">
+                        <li class="star_1 opt_hide a1">
+                            <a href="" class="shadow">
+                                <div class="pic">
+                                    <img src="imgs/photo/20141030152751NRihyRENa7.jpg">
+                                </div>
+                                <div class="info">
+                                    <div class="name">智慧社区</div>
+                                    <div class="detail">
+                                        新时代孵化的智慧社区首页
+                                    </div>
+                                    
+                                </div>
+                                <div class="shadow-line"></div>
+                            </a>
+                        </li>
+                        <li class="line"></li>
+                        <li class="star_1 opt_hide a2">
+                            <a href="" class="shadow">
+                                <div class="pic">
+                                    <img src="imgs/photo/20141029162235J7aJmCHkFm.jpg">
+                                </div>
+                                <div class="info">
+                                    <div class="name">生活圈</div>
+                                    <div class="detail">
+                                        智慧社区综合服务生活圈
+                                    </div>
+                                    
+                                </div>
+                                <div class="shadow-line"></div>
+                            </a>
+                        </li>
+                        <li class="line"></li>
+                        <li class="star_1 opt_hide a3">
+                            <a href="" class="shadow">
+                                <div class="pic">
+                                    <img src="imgs/photo/20150120092342k2ABsEHnQN.jpg">
+                                </div>
+                                <div class="info">
+                                    <div class="name">个人中心</div>
+                                    <div class="detail">
+                                        智慧社区个人中心
+                                    </div>
+                                    
+                                </div>
+                                <div class="shadow-line"></div>
+                            </a>
+                        </li>
+                        <li class="line"></li>
+                        <li class="star_1 opt_hide a4">
+                            <a href="" class="shadow">
+                                <div class="pic">
+                                    <img src="imgs/photo/20150423183545tYnFzYnn3p.jpg">
+                                </div>
+                                <div class="info">
+                                    <div class="name">便民服务</div>
+                                    <div class="detail">
+                                        智慧社区便民服务
+                                    </div>
+                                    
+                                </div>
+                                <div class="shadow-line"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 页面主体第二部分 -->
+<div id="main-2">
+    <div class="floor-2">
+        <div class="floor2">
+            <a href="" class="floor-title-png"><img src="imgs/bgi/wb.png0" class="animated zoomInUp"></a>
+            <h2 style="display:none;">垃圾分类积分兑换中心</h2>
+            <div class="boxs">
+                <div class="box-l">
+                    <div class="first-img0 b1 opt_hide">
+                        <div class="first-img">
+                            <img src="imgs/photo/20150413174400N0dPnxUKHk.jpg"/>
+                            <div class="shadow-line"></div>
+                        </div>
+                    </div>
+                    <div class="box-hd b2 opt_hide">
+                        <p><span>垃圾分类积分兑换</span></p>
+                        <ul class="box-bd">
+                            <li class="icon1"><a href="">耳机</a></li>
+                            <li class="icon2"><a href="">移动电源</a></li>
+                            <li class="icon3"><a href="">保护壳</a></li>
+                            <li class="icon4"><a href="">贴膜</a></li>
+                            <li class="icon5"><a href="">皮套</a></li>
+                            <li class="icon6"><a href="">数据线</a></li>
+                        </ul>
+                        <div class="box-ft">
+                            <a href="">全部兑换物品<span class="arrow"></span></a>
+                        </div>
+                    </div>
+                    <div class="box-dy b3 opt_hide">
+                        <img src="imgs/photo/20131120165101xYIYzhkVEy.jpg"/>
+                        <div class="shadow-line"></div>
+                    </div>
+                    <div class="box-usb0 b4 opt_hide">
+                        <div class="box-usb">
+                            <img src="imgs/photo/20150413174340NLV2gvV4FU.jpg"/>
+                            <div class="shadow-lineW"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-r">
+                    <div class="box-sc0 b5 opt_hide">
+                        <div class="box-sc">
+                            <img src="imgs/photo/20150123182505RO822scYYt.jpg"/>
+                            <div class="shadow-lineW"></div>
+                        </div>
+                    </div>
+                    <div class="box-jdej b6 opt_hide">
+                        <img src="imgs/photo/20141230145609l7Fsk7CdHy.jpg"/>
+                        <div class="shadow-line"></div>
+                    </div>
+                    <div class="box-gpzej0 b7 opt_hide">
+                        <div class="box-gpzej">
+                            <img src="imgs/photo/20141011101157yZEFpMrk0h.jpg"/>
+                            <div class="shadow-line"></div>
+                        </div>
+                    </div>
+                    <div class="box-lyej b8 opt_hide">
+                        <img src="imgs/photo/201410270957132inlm3IwsV.jpg"/>
+                        <div class="shadow-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 页面主体第三部分 -->
+<div id="main-3">
+    <div class="floor-3">
+        <div class="floor3">
+            <a href="" class="floor-title-png"><img src="imgs/bgi/weibo.png" class="animated zoomInUp"></a>
+            <div class="box-world">
+                <div class="box-fqgw">
+                    <div class="box-fq opt_hide c1">
+                        <img src="imgs/photo/201403261455420lqMPNGENc.png" alt="1">
+                        <div class="shadow-line"></div>
+                    </div>
+                    <div class="box-gw opt_hide c2">
+                        <img src="imgs/photo/20150226100534QqezQ85N6y.png" alt="1">
+                        <div class="shadow-line"></div>
+                    </div>
+                </div>
+                <div class="box-hdfk opt_hide c3">
+                    <img src="imgs/photo/20140926184007v2rjcVFcbW.png" alt="1">
+                    <div class="shadow-line"></div>
+                </div>
+                <div class="box-gj opt_hide c4">
+                    <img src="imgs/photo/20131212113902waaLqQUWfB.jpg" alt="1">
+                    <div class="shadow-line"></div>
+                </div>
+            </div>
+            <div class="news d1 opt_hide">
+                <div class="xwwb">
+                    <div class="asd active"><a href="#">新闻</a></div>
+                    <div class="asd"><a href="#">微博</a></div>
+                </div>
+            </div>
+            <div class="news1 d2 opt_hide">
+                <ul>
+                    <li>
+                        <div class="n1">
+                            <p><a href="">区块链 全世界在多个节点上共同维护公开大账本</a></p>
+                            <img src="imgs/photo/20150227161036GqO59Dvta2.jpg">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="n1"><img src="imgs/photo/201502271135596D2wBJxvH0.jpg">
+                            <p><a href="">区块链数据以广播的方式传递到网上所有的节点,形成不可篡改却又可验证的数据信息</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="n1"><img src="imgs/photo/20140604145924CFBnAtVjqN.jpg">
+                            <p><a href="">比特币 一种以P2P形式的虚拟的加密数字货币，一个去中心化的支付系统</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="n1"><img src="imgs/photo/20140919101741cvR0TcGkaq.jpg">
+                            <p><a href="">神策数据，深度洞察用户数据，用数据驱动产品改进及运营监控</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--关于 -->
+<div id="footer">
+    <div class="footerContent">
+        <ul>
+            <li>
+                <div class="title">关于我们</div>
+                <p><a href="#">关于垃圾分类</a></p>
+                <p><a href="#">新闻中心</a></p>
+                <p><a href="#">人才招聘</a></p>
+            </li>
+            <li>
+                <div class="title">基本分类</div>
+                <p><a href="#">干垃圾</a></p>
+                <p><a href="#">湿垃圾</a></p>
+                <p><a href="#">固体垃圾</a></p>
+                <p><a href="#">有毒有害 7</a></p>
+            </li>
+            <li>
+                <div class="title">购物相关</div>
+                <p><a href="#">帮助中心</a></p>
+                <p><a href="#">周边产品</a></p>
+                <p><a href="#">分类积分中心</a></p>
+                <p><a href="#">客户服务政策</a></p>
+            </li>
+            <li>
+                <div class="title">会员中心</div>
+                <p><a href="#">“分类”注册</a></p>
+                <p><a href="#">会员注册</a></p>
+                <p><a href="#">会员登录</a></p>
+            </li>
+            <li>
+                <div class="title">关注我们</div>
+                <p><a href="#" class="xl">新浪微博</a></p>
+                <p><a href="#" class="tx">腾讯微博</a></p>
+                <p><a href="#" class="rr">人人网</a></p>
+                <p><a href="#" class="qq">QQ空间</a></p>
+            </li>
+            <li>
+                <div class="title">联系我们</div>
+                <div class="foot-top">
+                    <h1></h1>
+                    <p class="lxwm">4001-666-888</p>
+                    <p>7*24小时客服电话</p>
+                </div>
+                <div class="foot-bottom">
+                    <h1></h1>
+                    <p class="lxwm">在线客服</p>
+                    <p>服务时段：8：30--22:00</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 版权所有 -->
+<div id="foot_bottom">
+    <div class="footBottom">
+        <div class="foot_left">
+            <div class="foot_logo"></div>
+            <p>© 2005 - 2020 长沙市智慧社区服务有限公司 版权所有(<a href="">湘ICP备 08130116 号</a>)</p>
+        </div>
+        <div class="foot_right">
+            <a href="#">版权说明</a>
+            <a href="#">使用协议</a>
+            <a href="#">网站地图</a>
+            <a href="#">友情链接</a>
+            <a href="#">联系我们</a>
+        </div>
+    </div>
+</div>
+<!-- 返回顶部 -->
+<div id="totop">
+    <a href="javascript:;" id="btn"></a>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        loop: true,
+        autoplay: 3000,
+        speed: 1000,
+        prevButton: '.swiper-button-prev',
+        nextButton: '.swiper-button-next',
+        effect: 'fade',//  effect: 'flip',effect: 'coverflow',slide', 'fade',cube
+        grabCursor: true,
+        cube: {
+            shadow: false,
+            slideShadows: false,
+            shadowOffset: 20,
+            shadowScale: 0.94
+        }
+    });
+</script>
+<script src="js/products.js"></script>
+<script src="js/login.js"></script>
+<script type="text/javascript">
+    window.onload = function(){
+        var totop = document.getElementById("btn");
+        //
+
+        
+        // 页面加载后隐藏按钮
+        totop.style.display = "none";
+
+
+        // 吸顶灯功能实现
+        var nav = document.getElementById("nav");
+        var navTop = nav.offsetTop;
+        // console.log(navTop);
+
+
+        
+        var timer = null;
+        // 添加点击事件
+        totop.onclick = function(){
+            timer = setInterval(function(){
+                var backtop = document.documentElement.scrollTop || document.body.scrollTop;
+                // 越滚越慢
+                var speedTop = backtop/5;
+                document.documentElement.scrollTop = backtop-speedTop;
+                if(backtop == 0){
+                    clearInterval(timer);
+                }
+            },30);
+        }
+
+        var pageHeight = 700;
+        window.onscroll = function(){
+            // console.log("111");
+            var backtop = document.documentElement.scrollTop || document.body.scrollTop;
+            if(backtop >= pageHeight){
+                totop.style.display = "block";
+            }else{
+                totop.style.display = "none";
+            }
+
+
+            // 吸顶灯功能实现
+            if(backtop>=navTop){
+                nav.style.position = "fixed";
+                nav.style.top = 0;
+                nav.style.left = 0;
+                nav.style.zIndex = 100;
+            }else{
+                nav.style.position = "";
+            }
+        }
+
+        
+    }
+</script>
+</body>
+</html>
